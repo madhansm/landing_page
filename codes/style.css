@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 140px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 8em;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -8px -8px 0 -8px;
+    background-color: #1f2937;
+
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+img {
+    width: 800px;
+    border: 1px solid grey;
+}
+
+button {
+    text-decoration: none;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    width: 7em;
+    font-weight: bold;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    margin: 0 -8px 0 -8px;
+    padding: 4em 8em 6em 8em;
+    gap: 40px;
+}
+
+.random-info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 1em;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 8em 4em 8em;
+    gap: 50px;
+}
+
+.img-info {
+    flex: 1;
+    max-width: 130px;
+    text-align: center;
+}
+
+.img-info img {
+    border: 1px solid blue;
+    border-radius: 15px;
+    height: 130px;
+    width: 130px;
+}
+
+.inspo {
+    background-color: #e5e7eb;
+    margin: 0 -8px;
+}
+
+#inspo-content {
+    padding: 2em 8em;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#thor {
+    margin: -4em 18em 4em auto;
+    text-align: right;
+    font-weight: bold;
+}
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    margin: 5em 12em;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 20px 60px;
+    align-items: center;
+    color: white;
+}
+
+#call {
+    font-weight: bold;
+}
+
+#button1 {
+    margin-top: 10px;
+}
+
+#button2 {
+    border: 1px solid white;
+}
+
+.footer {
+    flex: 1;
+    text-align: center;
+    margin: -8px;
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
+}
